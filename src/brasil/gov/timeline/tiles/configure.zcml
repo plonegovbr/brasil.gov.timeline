@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="brasil.gov.timeline">
+
+  <include package="plone.tiles" file="meta.zcml" />
+
+  <plone:tile
+      name="brasil.gov.timeline"
+      for="*"
+      title="Timeline"
+      description="Displays timeline."
+      icon="++resource++collective.cover/img/tile-generic.png"
+      add_permission="cmf.ModifyPortalContent"
+      schema=".timeline.ITimelineTile"
+      class=".timeline.TimelineTile"
+      permission="zope2.View"
+      template="timeline.pt"
+      />
+
+</configure>
