@@ -143,8 +143,6 @@ class TimelineTile(ListTile):
 
     def get_image(self, item):
         if item:
-            # FIXME: local variable 'image' is assigned to but never used
-            image = item.image_timeline  # noqa: F841
             scales = item.restrictedTraverse('@@images')
             scale = scales.scale('image_timeline', scale='timeline_view')
             return scale
