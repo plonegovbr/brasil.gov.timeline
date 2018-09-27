@@ -15,12 +15,4 @@
       template="timeline.pt"
       />
 
-  <browser:page
-      name="tile-download"
-      for="*"
-      class=".download.DownloadView"
-      layer="brasil.gov.timeline.interfaces.IBrowserLayer"
-      permission="zope.Public"
-      />
-
 </configure>
