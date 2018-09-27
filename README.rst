@@ -27,7 +27,7 @@ O estado atual dos testes pode ser visto nas imagens a seguir:
 .. image:: https://img.shields.io/coveralls/plonegovbr/brasil.gov.timeline/master.svg
     :target: https://coveralls.io/r/plonegovbr/brasil.gov.timeline
 
-.. image:: https://img.shields.io/codacy/grade/77956b9df8a34087bc7ac4079f0e2ae3.svg
+.. image:: https://img.shields.io/codacy/grade/0a93d37e76014baba229b3ed8318cdb3.svg
     :target: https://www.codacy.com/project/plonegovbr/brasil.gov.timeline/dashboard
 
 Instalação
