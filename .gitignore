@@ -30,3 +30,7 @@ src/plone.*
 src/Products.*
 src/sc.*
 var/
+src/brasil/gov/timeline/browser/static/
+webpack/node_modules*
+webpack/yarn.lock
+webpack/package-lock.json

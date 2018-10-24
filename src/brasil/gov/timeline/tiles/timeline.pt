@@ -8,7 +8,7 @@
       Please add up to timeline objects to the tile.
     </p>
 
-    <div class="brasil-timeline-tile tile-content"
+    <div class="brasil-gov-timeline-tile tile-content"
          tal:condition="not:is_empty"
          tal:attributes="id string:timeline-${view/id}">
       <div class="tile-header" tal:condition="view/tile_title">

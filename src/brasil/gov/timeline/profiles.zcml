@@ -6,7 +6,7 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="Timeline"
+      title=".gov.br: Módulo de Timeline 1.0a1.dev"
       directory="profiles/default"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       i18n:attributes="title; description"

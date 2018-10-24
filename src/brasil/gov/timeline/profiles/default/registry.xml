@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <registry xmlns:i18n="http://xml.zope.org/namespaces/i18n">
-  <!--record name="plone.app.tiles">
+  <record name="plone.app.tiles">
     <value purge="false">
       <element>brasil.gov.timeline</element>
     </value>
-  </record-->
+  </record>
 
-  <!-- record name="collective.cover.controlpanel.ICoverSettings.available_tiles">
+  <record name="collective.cover.controlpanel.ICoverSettings.available_tiles">
     <value purge="false">
       <element>brasil.gov.timeline</element>
     </value>
-  </record-->
+  </record>
 </registry>
