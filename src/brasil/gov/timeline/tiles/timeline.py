@@ -165,4 +165,3 @@ class TimelineTile(ListTile):
     def is_empty(self):
         """Check if the tile is empty."""
         return super(TimelineTile, self).results() == []
-
