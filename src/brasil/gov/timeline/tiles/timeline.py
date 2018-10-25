@@ -150,13 +150,19 @@ class TimelineTile(ListTile):
     def get_between_years(self, itens):
         if itens:
             years = [year[0].year for year in itens]
-            year_left = years[0]
-            year_right = years[-1]
-            D = {}
-            D['year_left'] = year_left
-            D['year_right'] = year_right
-        else:
-            D = {}
-            D['year_left'] = ''
-            D['year_right'] = ''
+            if years:
+                year_left = years[0]
+                year_right = years[-1]
+                D = {}
+                D['year_left'] = year_left
+                D['year_right'] = year_right
+            else:
+                D = {}
+                D['year_left'] = ''
+                D['year_right'] = ''
         return D
+
+    def is_empty(self):
+        """Check if the tile is empty."""
+        return super(TimelineTile, self).results() == []
+

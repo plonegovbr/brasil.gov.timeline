@@ -4,7 +4,7 @@
       xmlns:i18n="http://xml.zope.org/namespaces/i18n"
       i18n:domain="brasil.gov.timeline">
   <body tal:define="is_empty view/is_empty">
-    <p tal:condition="python: is_empty and view.is_compose_mode()" i18n:translate="">
+    <p tal:condition="python: view.is_compose_mode() and is_empty" i18n:translate="">
       Please add up to timeline objects to the tile.
     </p>
 
